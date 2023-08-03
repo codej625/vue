@@ -28,3 +28,10 @@ npm run serve
 ```
 ctrl + c
 ```
+
+## 기타
+
+1. router 설치
+```
+npm i vue-router@next
+```
