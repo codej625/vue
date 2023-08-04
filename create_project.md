@@ -1,20 +1,18 @@
 # create project!
 
-1. node.js설치
+1. Node.js설치
 
-2. vue 설치
+2. Vue.js 설치
+```
+npm install vue
+```
+
+3. Vue CLI 설치
 ```
 npm install -g @vue/cli
 ```
 
-3. 확장프로그램 설치
-```
-vue 3 snippets
-volar
-HTML CSS Support
-```
-
-4. vue프로젝트 생성
+4. Create Vue project
 ```
 vue create {project name}
 ```
@@ -28,10 +26,18 @@ npm run serve
 ```
 ctrl + c
 ```
+<br/>
 
-## 기타
+## etc
 
-1. router 설치
+1. Router set
 ```
 npm i vue-router@next
+```
+
+2. VSCode extensions list
+```
+vue 3 snippets
+volar
+HTML CSS Support
 ```
