@@ -33,6 +33,8 @@ ctrl + c
 1. Router set
 ```
 npm i vue-router@next
+
+npm install vue-router
 ```
 
 2. VSCode extensions list
