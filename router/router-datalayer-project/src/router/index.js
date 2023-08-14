@@ -1,7 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import IndexView from '../views/indexView.vue'
 
 const routes = [
+  {
+    path: '/',
+    name: 'index',
+    component: IndexView
+  },
   {
     path: '/vhc/CMWEBVHCM1001',
     name: 'home',
