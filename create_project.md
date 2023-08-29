@@ -53,3 +53,14 @@ HTML CSS Support
 2. 'vue-cli-service'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.
 3. npm i
 ```
+```
+1. invalid host header => error
+2. vue.config.js fix
+3. const { defineConfig } = require('@vue/cli-service')
+   module.exports = defineConfig({
+     transpileDependencies: true,
+     devServer:{
+       allowedHosts:'all'
+     }
+   })
+```
