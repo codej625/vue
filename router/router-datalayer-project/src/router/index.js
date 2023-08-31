@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import IndexView from '../views/indexView.vue'
+import IndexView from '../views/IndexView.vue'
+import SecondView from '../views/SecondView.vue'
+import ThirdView from '../views/ThirdView.vue'
+import FourthView from '../views/FourthView.vue'
 
 const routes = [
   {
@@ -12,6 +15,21 @@ const routes = [
     path: '/vhc/CMWEBVHCM1001',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/vhc/CMWEBVHCM1003',
+    name: 'second',
+    component: SecondView
+  },
+  {
+    path: '/vhc/CMWEBVHCM1004',
+    name: 'third',
+    component: ThirdView
+  },
+  {
+    path: '/vhc/CMWEBVHCM1005',
+    name: 'fourth',
+    component: FourthView
   },
   {
     path: '/vhc/CMWEBVHCM1002',

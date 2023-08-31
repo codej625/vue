@@ -1,7 +1,10 @@
 <template>
   <nav>
     <router-link to="/vhc/CMWEBVHCM1001">페이지1</router-link> |
-    <router-link to="/vhc/CMWEBVHCM1002">페이지2</router-link>
+    <router-link to="/vhc/CMWEBVHCM1002">페이지2</router-link> | 
+    <router-link to="/vhc/CMWEBVHCM1003">페이지3</router-link> |
+    <router-link to="/vhc/CMWEBVHCM1004">페이지4</router-link> |
+    <router-link to="/vhc/CMWEBVHCM1005">페이지5</router-link>
   </nav>
   <router-view/>
 </template>

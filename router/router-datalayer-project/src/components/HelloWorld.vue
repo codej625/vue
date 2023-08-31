@@ -1,19 +1,21 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+  <!-- 
     <h1>{{ message }}</h1>
-    <h1>{{ content }}</h1>
+    <h1>{{ content }}</h1> 
+  -->
   </div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      message: 'Data Layer Test',
-      content: 'Content'
-    };
-  },
+  // data() {
+  //   return {
+  //     message: 'Data Layer Test',
+  //     content: 'Content'
+  //   };
+  // },
   mounted() {
     window.addEventListener("beforeunload", function() {
       var dataLayer = window.dataLayer = window.dataLayer || [];
@@ -25,10 +27,10 @@ export default {
       });
     });
   },
-  name: 'HelloWorld',
   props: {
     msg: String
-  }
+  },
+  name: 'HelloWorld'
 }
 </script>
 

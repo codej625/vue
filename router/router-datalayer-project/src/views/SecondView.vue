@@ -1,18 +1,11 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="흥국 화재 테스트 페이지1"/>
+  <div class="second">
+    <h1>흥국 화재 테스트 페이지3</h1>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  },
   mounted() {
     window.addEventListener("beforeunload", function () {
       var dataLayer = window.dataLayer = window.dataLayer || [];
@@ -25,9 +18,4 @@ export default {
     });
   }
 }
-
 </script>
-
-<style scoped>
-
-</style>
